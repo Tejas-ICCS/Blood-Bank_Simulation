@@ -9,9 +9,4 @@ import java.net.http.HttpResponse;
 @WebServlet("/admin-login")
 public class AdminLogin extends HttpServlet {
 
-    @Override
-    protected void doPost(HttpRequest request, HttpResponse response){
-        String username=request.getParameter("username");
-        String password=request.getParameter("password");
-    }
 }
