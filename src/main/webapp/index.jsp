@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%
+        String name = (String) session.getAttribute("login");
+    %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,6 +30,7 @@
                   <li><a href="recipientLogin.jsp">Recipient Login</a></li>
                   <li><a href="about.jsp">About</a></li>
                   <li><a href="contact.jsp">Contact us</a></li>
+                    <h1> welcome <%= name %></h1>
               </nav>
 
             </div>

@@ -26,13 +26,13 @@
 
             </div>
     </header>  
-    <form action="donor_interface1.jsp" method="post">
+    <form action="doner-login" method="post">
     <section id="login_Donor">
     <div class="login-box">
         <h2>Donor Login</h2>
-        <input type="text" placeholder="Donor ID">
-        <input type="password" placeholder="Password">
-        <button>Login</button>
+        <input type="text" placeholder="Donor ID" name="username" id="username">
+        <input type="password" placeholder="Password" name="password" id="password">
+        <button type="submit">Login</button>
     </div>
 	</section>
 	</form>
